@@ -212,27 +212,6 @@ Organizations should:
 
 ---
 
-##  Screenshots
-
-### HTTP Traffic Analysis
-![HTTP Login Capture](./screenshots/01-http-login-capture.png)
-*Captured HTTP login attempt showing plaintext transmission*
-
-![Credentials in Plaintext](./screenshots/02-credentials-plaintext.png)
-*Username and password clearly visible in Wireshark analysis*
-
-### HTTPS Traffic Analysis
-![HTTPS Encrypted Traffic](./screenshots/03-https-encrypted.png)
-*HTTPS connection showing encrypted data transmission*
-
-![TLS Layer](./screenshots/04-tls-layer.png)
-*TLSv1.2 Record Layer replacing HTTP plaintext section*
-
-![Protocol Comparison](./screenshots/05-comparison.png)
-*Side-by-side comparison of HTTP vs HTTPS packet captures*
-
----
-
 ##  Lab Report
 
 The complete lab report with detailed analysis is available:
